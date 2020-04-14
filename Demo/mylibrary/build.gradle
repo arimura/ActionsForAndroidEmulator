@@ -41,6 +41,7 @@ publishing {
             groupId = 'com.hormiga6.mylibrary'
             artifactId = 'mylibrary'
             version = '1.0.0'
+            artifact "${buildDir}/outputs/aar/${project.name}-release.aar"
         }
     }
 }
