@@ -1,4 +1,4 @@
-name: Emulator test
+name: emulator-test
 
 on: 
   push:
