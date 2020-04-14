@@ -1,4 +1,7 @@
 jobs:
+  on: 
+    push:
+
   test:
     runs-on: macOS-latest
     steps:
