@@ -1,7 +1,9 @@
-jobs:
-  on: 
-    push:
+name: Emulator test
 
+on: 
+  push:
+
+jobs:
   test:
     runs-on: macOS-latest
     steps:
